@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2011 The Android Open Source Project
- * Copyright (C) 2015 The SudaMod Project 
+ * Copyright (C) 2015 The SudaMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -205,7 +205,7 @@ public class CalendarViewAdapter extends BaseAdapter {
                         weekDay.setVisibility(View.VISIBLE);
                         weekDay.setText(buildDayOfWeek() + buildLunarDate(false));
                     }
-                    date.setText(buildMonthYearDate());
+                    date.setText(buildWeekDate());
                     break;
                 case ViewType.MONTH:
                     weekDay.setVisibility(View.VISIBLE);
@@ -506,4 +506,3 @@ public class CalendarViewAdapter extends BaseAdapter {
     }
 
 }
-
